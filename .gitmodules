@@ -1,0 +1,8 @@
+[submodule "deps/dbg_bridge"]
+	path = deps/dbg_bridge
+	url = https://github.com/ultraembedded/core_dbg_bridge.git
+[submodule "deps/verilog-axi"]
+	path = deps/verilog-axi
+	url = https://github.com/alexforencich/verilog-axi.git
+
+
