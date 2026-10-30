@@ -27,7 +27,7 @@ begin
     repeat (5) @(posedge clk);
     rst = 0;	
 	
-	#100000000
+	#10000000
 	$finish;
 	
 end
@@ -54,9 +54,20 @@ wire [ 7:0] byte_from_dut;
 reg         en_to_dut   = 1'b0;
 reg  [ 7:0] byte_to_dut = 8'h0;
 
+integer file_log;
+
+initial begin
+	file_log = $fopen("./uart.log", "w");  // 文本方式写log //
+end
+
 always @ (posedge clk)
+begin
     if (en_from_dut)
+	begin
         $write("received byte: %02x\n", byte_from_dut);
+		$fwrite(file_log, "%c", byte_from_dut);
+	end
+end
 
 //-----------------------------------------------------------------------------------------------------------------------------
 // generate data to DUT
@@ -74,7 +85,7 @@ initial begin
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
-    @(posedge clk) byte_to_dut <= 8'h55;
+    @(posedge clk) byte_to_dut <= 8'h55;  // led0 on, led2 on
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
@@ -85,7 +96,7 @@ initial begin
     @(posedge clk) en_to_dut   <= 1'b1;
                    byte_to_dut <= 8'h11;
     @(posedge clk) byte_to_dut <= 8'h04;
-    @(posedge clk) byte_to_dut <= 8'hF0;
+    @(posedge clk) byte_to_dut <= 8'hF0;  // read sw=2'b01
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
@@ -99,11 +110,11 @@ initial begin
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
-    @(posedge clk) byte_to_dut <= 8'h04;
-    @(posedge clk) byte_to_dut <= 8'h12;
-    @(posedge clk) byte_to_dut <= 8'h34;
-    @(posedge clk) byte_to_dut <= 8'h56;
-    @(posedge clk) byte_to_dut <= 8'h78;
+    @(posedge clk) byte_to_dut <= 8'h04;  // mem addr = 0x0000_0004
+    @(posedge clk) byte_to_dut <= 8'h21;
+    @(posedge clk) byte_to_dut <= 8'h43;
+    @(posedge clk) byte_to_dut <= 8'h65;
+    @(posedge clk) byte_to_dut <= 8'h87;  // write value = 32'h87654321
     @(posedge clk) en_to_dut   <= 1'b0;
     repeat (10000) @(posedge clk);
 
@@ -111,15 +122,15 @@ initial begin
     @(posedge clk) en_to_dut   <= 1'b1;
                    byte_to_dut <= 8'h11;
     @(posedge clk) byte_to_dut <= 8'h04;
-    @(posedge clk) byte_to_dut <= 8'hF0;
     @(posedge clk) byte_to_dut <= 8'h00;
     @(posedge clk) byte_to_dut <= 8'h00;
-    @(posedge clk) byte_to_dut <= 8'h04;
+    @(posedge clk) byte_to_dut <= 8'h00;
+    @(posedge clk) byte_to_dut <= 8'h04;  // read addr = 0x0000_0004, value should = 32'h87654321
     @(posedge clk) en_to_dut   <= 1'b0;
     repeat (10000) @(posedge clk);
     
     repeat (10000) @(posedge clk);
-    $stop;
+    //$stop;
 end
 
 
@@ -136,8 +147,8 @@ u_top
     ,.fpga_rxd_i(uart_to_dut)
     ,.fpga_txd_o(uart_from_dut)
 	
-	,.sw(sw)
-	,.led(led)
+	,.sw({2'b00,sw[1:0]})
+	,.led(led[3:0])
 );
 
 uart_tx #(
