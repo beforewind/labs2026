@@ -5,3 +5,9 @@
 [submodule "deps/verilog-axi"]
 	path = deps/verilog-axi
 	url = https://github.com/alexforencich/verilog-axi.git
+[submodule "deps/peripherals"]
+	path = deps/peripherals
+	url = https://github.com/ultraembedded/core_soc.git
+[submodule "deps/riscv"]
+	path = deps/riscv
+	url = https://github.com/ultraembedded/riscv.git
