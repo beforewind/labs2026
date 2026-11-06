@@ -17,7 +17,7 @@ git clone https://github.com/beforewind/labs2026.git --recursive
 
 | Name    | Contents                                                     |
 | ------- | ------------------------------------------------------------ |
-| build   | FPGA工程和软件编译目录，会生成大量的中间文件，不必做版本管理 |
+| build   | FPGA工程和软件编译目录，会生成大量的中间文件                 |
 | deps    | 开源的软硬件库，在.gitmodules中维护                          |
 | hw      | 不同顶层的RTL设计，如uart2mem在pynq-z2开发板上实现的设计代码 |
 | scripts | python和shell脚本                                            |
@@ -25,19 +25,21 @@ git clone https://github.com/beforewind/labs2026.git --recursive
 | tb      | testbench                                                    |
 | tools   | 压缩的工具程序                                               |
 
-## lab1-数字模块设计与验证
+## lab-数字模块设计与验证
 
 ### uart2mem模块
 
 用一个运行在pynq-z2开发板上的FPGA工程uart2mem，让学生熟悉完整的Vivado开发流程，掌握从PC访问FPGA/RTL设计内部数据的基本方案。
 
-## lab2-riscv soc
+## lab-soc设计与应用
 
+### rvsoc设计与验证
 
+通过tcl生成一个简单的rvsoc工程，让学生熟悉裸机程序结构、编译、链接，执行FPGA实现流程，生成位流，下载测试。
 
-## lab3-riscv core
+## lab3-riscv设计与优化
 
-
+### rvcore设计与优化
 
 ## 致谢
 

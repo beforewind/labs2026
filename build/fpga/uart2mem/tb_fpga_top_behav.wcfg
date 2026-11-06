@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fpga_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fpga_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10,000,089,994 ps"></ZoomStartTime>
+      <ZoomEndTime time="10,000,090,002 ps"></ZoomEndTime>
+      <Cursor1Time time="10,000,090,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="403"></NameColumnWidth>
+      <ValueColumnWidth column_width="320"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="240" />
+   <wvobject fp_name="/tb_fpga_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/sw" type="array">
+      <obj_property name="ElementShortName">sw[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/uart_from_dut" type="logic">
+      <obj_property name="ElementShortName">uart_from_dut</obj_property>
+      <obj_property name="ObjectShortName">uart_from_dut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/uart_to_dut" type="logic">
+      <obj_property name="ElementShortName">uart_to_dut</obj_property>
+      <obj_property name="ObjectShortName">uart_to_dut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/en_from_dut" type="logic">
+      <obj_property name="ElementShortName">en_from_dut</obj_property>
+      <obj_property name="ObjectShortName">en_from_dut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/byte_from_dut" type="array">
+      <obj_property name="ElementShortName">byte_from_dut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_from_dut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/en_to_dut" type="logic">
+      <obj_property name="ElementShortName">en_to_dut</obj_property>
+      <obj_property name="ObjectShortName">en_to_dut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/byte_to_dut" type="array">
+      <obj_property name="ElementShortName">byte_to_dut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_to_dut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/UART_BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">UART_BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/UART_PARITY" type="array">
+      <obj_property name="ElementShortName">UART_PARITY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_PARITY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/fpga_rxd_i" type="logic">
+      <obj_property name="ElementShortName">fpga_rxd_i</obj_property>
+      <obj_property name="ObjectShortName">fpga_rxd_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/sw" type="array">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/fpga_txd_o" type="logic">
+      <obj_property name="ElementShortName">fpga_txd_o</obj_property>
+      <obj_property name="ObjectShortName">fpga_txd_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_awid_w" type="array">
+      <obj_property name="ElementShortName">axi_t_awid_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_awid_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_wdata_w" type="array">
+      <obj_property name="ElementShortName">axi_t_wdata_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_wdata_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_rlast_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_rlast_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_rlast_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_rdata_w" type="array">
+      <obj_property name="ElementShortName">axi_t_rdata_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_rdata_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_bvalid_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_bvalid_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_bvalid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_awready_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_awready_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_awready_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_arid_w" type="array">
+      <obj_property name="ElementShortName">axi_t_arid_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_arid_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_awaddr_w" type="array">
+      <obj_property name="ElementShortName">axi_t_awaddr_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_awaddr_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_arlen_w" type="array">
+      <obj_property name="ElementShortName">axi_t_arlen_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_arlen_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_wvalid_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_wvalid_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_wvalid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_araddr_w" type="array">
+      <obj_property name="ElementShortName">axi_t_araddr_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_araddr_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_rresp_w" type="array">
+      <obj_property name="ElementShortName">axi_t_rresp_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_rresp_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_wlast_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_wlast_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_wlast_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_rvalid_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_rvalid_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_rvalid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_arvalid_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_arvalid_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_arvalid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_arready_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_arready_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_arready_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_awvalid_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_awvalid_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_awvalid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_awlen_w" type="array">
+      <obj_property name="ElementShortName">axi_t_awlen_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_awlen_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_arburst_w" type="array">
+      <obj_property name="ElementShortName">axi_t_arburst_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_arburst_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_awburst_w" type="array">
+      <obj_property name="ElementShortName">axi_t_awburst_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_awburst_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_bid_w" type="array">
+      <obj_property name="ElementShortName">axi_t_bid_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_bid_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_wready_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_wready_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_wready_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_rid_w" type="array">
+      <obj_property name="ElementShortName">axi_t_rid_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_rid_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_bready_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_bready_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_bready_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_wstrb_w" type="array">
+      <obj_property name="ElementShortName">axi_t_wstrb_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_wstrb_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_bresp_w" type="array">
+      <obj_property name="ElementShortName">axi_t_bresp_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_t_bresp_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_t_rready_w" type="logic">
+      <obj_property name="ElementShortName">axi_t_rready_w</obj_property>
+      <obj_property name="ObjectShortName">axi_t_rready_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/gpio_inputs_w" type="array">
+      <obj_property name="ElementShortName">gpio_inputs_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_inputs_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/gpio_outputs_w" type="array">
+      <obj_property name="ElementShortName">gpio_outputs_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_outputs_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/UART_SPEED" type="array">
+      <obj_property name="ElementShortName">UART_SPEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_SPEED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_rxd_i" type="logic">
+      <obj_property name="ElementShortName">uart_rxd_i</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awready_i" type="logic">
+      <obj_property name="ElementShortName">mem_awready_i</obj_property>
+      <obj_property name="ObjectShortName">mem_awready_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wready_i" type="logic">
+      <obj_property name="ElementShortName">mem_wready_i</obj_property>
+      <obj_property name="ObjectShortName">mem_wready_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_bvalid_i" type="logic">
+      <obj_property name="ElementShortName">mem_bvalid_i</obj_property>
+      <obj_property name="ObjectShortName">mem_bvalid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_bresp_i" type="array">
+      <obj_property name="ElementShortName">mem_bresp_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_bresp_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_bid_i" type="array">
+      <obj_property name="ElementShortName">mem_bid_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_bid_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arready_i" type="logic">
+      <obj_property name="ElementShortName">mem_arready_i</obj_property>
+      <obj_property name="ObjectShortName">mem_arready_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_rvalid_i" type="logic">
+      <obj_property name="ElementShortName">mem_rvalid_i</obj_property>
+      <obj_property name="ObjectShortName">mem_rvalid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_rdata_i" type="array">
+      <obj_property name="ElementShortName">mem_rdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_rresp_i" type="array">
+      <obj_property name="ElementShortName">mem_rresp_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rresp_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_rid_i" type="array">
+      <obj_property name="ElementShortName">mem_rid_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rid_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_rlast_i" type="logic">
+      <obj_property name="ElementShortName">mem_rlast_i</obj_property>
+      <obj_property name="ObjectShortName">mem_rlast_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/gpio_inputs_i" type="array">
+      <obj_property name="ElementShortName">gpio_inputs_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_inputs_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_txd_o" type="logic">
+      <obj_property name="ElementShortName">uart_txd_o</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awvalid_o" type="logic">
+      <obj_property name="ElementShortName">mem_awvalid_o</obj_property>
+      <obj_property name="ObjectShortName">mem_awvalid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awaddr_o" type="array">
+      <obj_property name="ElementShortName">mem_awaddr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_awaddr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awid_o" type="array">
+      <obj_property name="ElementShortName">mem_awid_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_awid_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awlen_o" type="array">
+      <obj_property name="ElementShortName">mem_awlen_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_awlen_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awburst_o" type="array">
+      <obj_property name="ElementShortName">mem_awburst_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_awburst_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wvalid_o" type="logic">
+      <obj_property name="ElementShortName">mem_wvalid_o</obj_property>
+      <obj_property name="ObjectShortName">mem_wvalid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wdata_o" type="array">
+      <obj_property name="ElementShortName">mem_wdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wstrb_o" type="array">
+      <obj_property name="ElementShortName">mem_wstrb_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wstrb_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wlast_o" type="logic">
+      <obj_property name="ElementShortName">mem_wlast_o</obj_property>
+      <obj_property name="ObjectShortName">mem_wlast_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_bready_o" type="logic">
+      <obj_property name="ElementShortName">mem_bready_o</obj_property>
+      <obj_property name="ObjectShortName">mem_bready_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arvalid_o" type="logic">
+      <obj_property name="ElementShortName">mem_arvalid_o</obj_property>
+      <obj_property name="ObjectShortName">mem_arvalid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_araddr_o" type="array">
+      <obj_property name="ElementShortName">mem_araddr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_araddr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arid_o" type="array">
+      <obj_property name="ElementShortName">mem_arid_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_arid_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arlen_o" type="array">
+      <obj_property name="ElementShortName">mem_arlen_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_arlen_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arburst_o" type="array">
+      <obj_property name="ElementShortName">mem_arburst_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_arburst_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_rready_o" type="logic">
+      <obj_property name="ElementShortName">mem_rready_o</obj_property>
+      <obj_property name="ObjectShortName">mem_rready_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/gpio_outputs_o" type="array">
+      <obj_property name="ElementShortName">gpio_outputs_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_outputs_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_wr_w" type="logic">
+      <obj_property name="ElementShortName">uart_wr_w</obj_property>
+      <obj_property name="ObjectShortName">uart_wr_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_wr_data_w" type="array">
+      <obj_property name="ElementShortName">uart_wr_data_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_wr_data_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_wr_busy_w" type="logic">
+      <obj_property name="ElementShortName">uart_wr_busy_w</obj_property>
+      <obj_property name="ObjectShortName">uart_wr_busy_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_rd_w" type="logic">
+      <obj_property name="ElementShortName">uart_rd_w</obj_property>
+      <obj_property name="ObjectShortName">uart_rd_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_rd_data_w" type="array">
+      <obj_property name="ElementShortName">uart_rd_data_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rd_data_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_rd_valid_w" type="logic">
+      <obj_property name="ElementShortName">uart_rd_valid_w</obj_property>
+      <obj_property name="ObjectShortName">uart_rd_valid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_rx_error_w" type="logic">
+      <obj_property name="ElementShortName">uart_rx_error_w</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_error_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/tx_valid_w" type="logic">
+      <obj_property name="ElementShortName">tx_valid_w</obj_property>
+      <obj_property name="ObjectShortName">tx_valid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/tx_data_w" type="array">
+      <obj_property name="ElementShortName">tx_data_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/tx_accept_w" type="logic">
+      <obj_property name="ElementShortName">tx_accept_w</obj_property>
+      <obj_property name="ObjectShortName">tx_accept_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/read_skip_w" type="logic">
+      <obj_property name="ElementShortName">read_skip_w</obj_property>
+      <obj_property name="ObjectShortName">read_skip_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/rx_valid_w" type="logic">
+      <obj_property name="ElementShortName">rx_valid_w</obj_property>
+      <obj_property name="ObjectShortName">rx_valid_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/rx_data_w" type="array">
+      <obj_property name="ElementShortName">rx_data_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/rx_accept_w" type="logic">
+      <obj_property name="ElementShortName">rx_accept_w</obj_property>
+      <obj_property name="ObjectShortName">rx_accept_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_addr_q" type="array">
+      <obj_property name="ElementShortName">mem_addr_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_busy_q" type="logic">
+      <obj_property name="ElementShortName">mem_busy_q</obj_property>
+      <obj_property name="ObjectShortName">mem_busy_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wr_q" type="logic">
+      <obj_property name="ElementShortName">mem_wr_q</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/len_q" type="array">
+      <obj_property name="ElementShortName">len_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">len_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/data_idx_q" type="array">
+      <obj_property name="ElementShortName">data_idx_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">data_idx_q[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/data_q" type="array">
+      <obj_property name="ElementShortName">data_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/magic_addr_w" type="logic">
+      <obj_property name="ElementShortName">magic_addr_w</obj_property>
+      <obj_property name="ObjectShortName">magic_addr_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/uart_tx_pop_w" type="logic">
+      <obj_property name="ElementShortName">uart_tx_pop_w</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_pop_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/state_q" type="array">
+      <obj_property name="ElementShortName">state_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/next_state_r" type="array">
+      <obj_property name="ElementShortName">next_state_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awvalid_q" type="logic">
+      <obj_property name="ElementShortName">mem_awvalid_q</obj_property>
+      <obj_property name="ObjectShortName">mem_awvalid_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_awvalid_r" type="logic">
+      <obj_property name="ElementShortName">mem_awvalid_r</obj_property>
+      <obj_property name="ObjectShortName">mem_awvalid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wvalid_q" type="logic">
+      <obj_property name="ElementShortName">mem_wvalid_q</obj_property>
+      <obj_property name="ObjectShortName">mem_wvalid_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_wvalid_r" type="logic">
+      <obj_property name="ElementShortName">mem_wvalid_r</obj_property>
+      <obj_property name="ObjectShortName">mem_wvalid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arvalid_q" type="logic">
+      <obj_property name="ElementShortName">mem_arvalid_q</obj_property>
+      <obj_property name="ObjectShortName">mem_arvalid_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_arvalid_r" type="logic">
+      <obj_property name="ElementShortName">mem_arvalid_r</obj_property>
+      <obj_property name="ObjectShortName">mem_arvalid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_sel_q" type="array">
+      <obj_property name="ElementShortName">mem_sel_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_sel_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/mem_sel_r" type="array">
+      <obj_property name="ElementShortName">mem_sel_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_sel_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/gpio_wr_q" type="logic">
+      <obj_property name="ElementShortName">gpio_wr_q</obj_property>
+      <obj_property name="ObjectShortName">gpio_wr_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/gpio_output_q" type="array">
+      <obj_property name="ElementShortName">gpio_output_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_output_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/UART_SPEED" type="array">
+      <obj_property name="ElementShortName">UART_SPEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_SPEED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/AXI_ID" type="array">
+      <obj_property name="ElementShortName">AXI_ID[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_ID[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/GPIO_ADDRESS" type="array">
+      <obj_property name="ElementShortName">GPIO_ADDRESS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_ADDRESS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STS_ADDRESS" type="array">
+      <obj_property name="ElementShortName">STS_ADDRESS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STS_ADDRESS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/REQ_WRITE" type="array">
+      <obj_property name="ElementShortName">REQ_WRITE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REQ_WRITE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/REQ_READ" type="array">
+      <obj_property name="ElementShortName">REQ_READ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REQ_READ[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_IDLE" type="array">
+      <obj_property name="ElementShortName">STATE_IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_LEN" type="array">
+      <obj_property name="ElementShortName">STATE_LEN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_LEN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_ADDR0" type="array">
+      <obj_property name="ElementShortName">STATE_ADDR0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_ADDR0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_ADDR1" type="array">
+      <obj_property name="ElementShortName">STATE_ADDR1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_ADDR1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_ADDR2" type="array">
+      <obj_property name="ElementShortName">STATE_ADDR2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_ADDR2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_ADDR3" type="array">
+      <obj_property name="ElementShortName">STATE_ADDR3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_ADDR3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_WRITE" type="array">
+      <obj_property name="ElementShortName">STATE_WRITE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_WRITE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_READ" type="array">
+      <obj_property name="ElementShortName">STATE_READ[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_READ[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_DATA0" type="array">
+      <obj_property name="ElementShortName">STATE_DATA0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_DATA0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_DATA1" type="array">
+      <obj_property name="ElementShortName">STATE_DATA1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_DATA1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_DATA2" type="array">
+      <obj_property name="ElementShortName">STATE_DATA2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_DATA2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/u_dbg/STATE_DATA3" type="array">
+      <obj_property name="ElementShortName">STATE_DATA3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_DATA3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awid" type="array">
+      <obj_property name="ElementShortName">s_axi_awid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awlen" type="array">
+      <obj_property name="ElementShortName">s_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awsize" type="array">
+      <obj_property name="ElementShortName">s_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awburst" type="array">
+      <obj_property name="ElementShortName">s_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awlock" type="logic">
+      <obj_property name="ElementShortName">s_axi_awlock</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awcache" type="array">
+      <obj_property name="ElementShortName">s_axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awprot" type="array">
+      <obj_property name="ElementShortName">s_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wlast" type="logic">
+      <obj_property name="ElementShortName">s_axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bid" type="array">
+      <obj_property name="ElementShortName">s_axi_bid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arid" type="array">
+      <obj_property name="ElementShortName">s_axi_arid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arlen" type="array">
+      <obj_property name="ElementShortName">s_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arsize" type="array">
+      <obj_property name="ElementShortName">s_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arburst" type="array">
+      <obj_property name="ElementShortName">s_axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arlock" type="logic">
+      <obj_property name="ElementShortName">s_axi_arlock</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arcache" type="array">
+      <obj_property name="ElementShortName">s_axi_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arprot" type="array">
+      <obj_property name="ElementShortName">s_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rid" type="array">
+      <obj_property name="ElementShortName">s_axi_rid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rlast" type="logic">
+      <obj_property name="ElementShortName">s_axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_state_reg" type="array">
+      <obj_property name="ElementShortName">read_state_reg[0:0]</obj_property>
+      <obj_property name="ObjectShortName">read_state_reg[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_state_next" type="array">
+      <obj_property name="ElementShortName">read_state_next[0:0]</obj_property>
+      <obj_property name="ObjectShortName">read_state_next[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_state_reg" type="array">
+      <obj_property name="ElementShortName">write_state_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_state_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_state_next" type="array">
+      <obj_property name="ElementShortName">write_state_next[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_state_next[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/mem_wr_en" type="logic">
+      <obj_property name="ElementShortName">mem_wr_en</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/mem_rd_en" type="logic">
+      <obj_property name="ElementShortName">mem_rd_en</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_id_reg" type="array">
+      <obj_property name="ElementShortName">read_id_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_id_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_id_next" type="array">
+      <obj_property name="ElementShortName">read_id_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_id_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_addr_reg" type="array">
+      <obj_property name="ElementShortName">read_addr_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_addr_next" type="array">
+      <obj_property name="ElementShortName">read_addr_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_next[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_count_reg" type="array">
+      <obj_property name="ElementShortName">read_count_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_count_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_count_next" type="array">
+      <obj_property name="ElementShortName">read_count_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_count_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_size_reg" type="array">
+      <obj_property name="ElementShortName">read_size_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_size_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_size_next" type="array">
+      <obj_property name="ElementShortName">read_size_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_size_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_burst_reg" type="array">
+      <obj_property name="ElementShortName">read_burst_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_burst_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_burst_next" type="array">
+      <obj_property name="ElementShortName">read_burst_next[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_burst_next[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_id_reg" type="array">
+      <obj_property name="ElementShortName">write_id_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">write_id_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_id_next" type="array">
+      <obj_property name="ElementShortName">write_id_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">write_id_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_addr_reg" type="array">
+      <obj_property name="ElementShortName">write_addr_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_addr_next" type="array">
+      <obj_property name="ElementShortName">write_addr_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr_next[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_count_reg" type="array">
+      <obj_property name="ElementShortName">write_count_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_count_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_count_next" type="array">
+      <obj_property name="ElementShortName">write_count_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_count_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_size_reg" type="array">
+      <obj_property name="ElementShortName">write_size_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_size_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_size_next" type="array">
+      <obj_property name="ElementShortName">write_size_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_size_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_burst_reg" type="array">
+      <obj_property name="ElementShortName">write_burst_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_burst_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_burst_next" type="array">
+      <obj_property name="ElementShortName">write_burst_next[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_burst_next[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awready_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awready_next" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready_next</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wready_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_wready_next" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready_next</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bid_reg" type="array">
+      <obj_property name="ElementShortName">s_axi_bid_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bid_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bid_next" type="array">
+      <obj_property name="ElementShortName">s_axi_bid_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bid_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bvalid_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_bvalid_next" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid_next</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arready_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_arready_next" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready_next</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rid_reg" type="array">
+      <obj_property name="ElementShortName">s_axi_rid_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rid_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rid_next" type="array">
+      <obj_property name="ElementShortName">s_axi_rid_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rid_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rdata_reg" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rdata_next" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rlast_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_rlast_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rlast_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rlast_next" type="logic">
+      <obj_property name="ElementShortName">s_axi_rlast_next</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rlast_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rvalid_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rvalid_next" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid_next</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rid_pipe_reg" type="array">
+      <obj_property name="ElementShortName">s_axi_rid_pipe_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rid_pipe_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rdata_pipe_reg" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata_pipe_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_pipe_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rlast_pipe_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_rlast_pipe_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rlast_pipe_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_rvalid_pipe_reg" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid_pipe_reg</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_pipe_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_awaddr_valid" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr_valid[13:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr_valid[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/s_axi_araddr_valid" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr_valid[13:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr_valid[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/read_addr_valid" type="array">
+      <obj_property name="ElementShortName">read_addr_valid[13:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_valid[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/write_addr_valid" type="array">
+      <obj_property name="ElementShortName">write_addr_valid[13:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr_valid[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/STRB_WIDTH" type="array">
+      <obj_property name="ElementShortName">STRB_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/ID_WIDTH" type="array">
+      <obj_property name="ElementShortName">ID_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/PIPELINE_OUTPUT" type="array">
+      <obj_property name="ElementShortName">PIPELINE_OUTPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIPELINE_OUTPUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/VALID_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">VALID_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VALID_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/WORD_WIDTH" type="array">
+      <obj_property name="ElementShortName">WORD_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WORD_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/WORD_SIZE" type="array">
+      <obj_property name="ElementShortName">WORD_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WORD_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/READ_STATE_IDLE" type="logic">
+      <obj_property name="ElementShortName">READ_STATE_IDLE</obj_property>
+      <obj_property name="ObjectShortName">READ_STATE_IDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/READ_STATE_BURST" type="logic">
+      <obj_property name="ElementShortName">READ_STATE_BURST</obj_property>
+      <obj_property name="ObjectShortName">READ_STATE_BURST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/WRITE_STATE_IDLE" type="array">
+      <obj_property name="ElementShortName">WRITE_STATE_IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE_STATE_IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/WRITE_STATE_BURST" type="array">
+      <obj_property name="ElementShortName">WRITE_STATE_BURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE_STATE_BURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fpga_top/u_top/axi_ram/WRITE_STATE_RESP" type="array">
+      <obj_property name="ElementShortName">WRITE_STATE_RESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE_STATE_RESP[1:0]</obj_property>
+   </wvobject>
+</wave_config>

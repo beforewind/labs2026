@@ -1,0 +1,5 @@
+
+根目录下执行添加submodule的命令示例：
+cd labs2026
+git submodule add https://github.com/alexforencich/verilog-axi.git deps/verilog-axi
+
